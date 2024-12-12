@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family:'roboto', sans-serif;
+    margin: 0;
+    
+}
+/*/////////// container 1 ///////////*/
+.container1{
+    background-color: #1F2937;
+    color: white;  
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}  
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+.hero {
+    padding: 140px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 10%;
+    gap: 10px;
+    
+
+}
+.left {
+    display: inline-block;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.right {
+    display: inline;
+    position: relative;
+    width: 50%;
+    align-items: center;
+    background-color: grey;
+    height: 250px;
+   
+
+}
+H1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+p,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #3882F6;
+}
+/*/////////// container 2 ///////////*/
+.container2{
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.title,
+.item {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+.boxtext {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    
+
+}
+.subtext {
+    color: #444444;
+    text-align: center;
+    
+}
+/*/////////// container 3 ///////////*/
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    
+}
+.quote{
+    color: #444444;
+    font-style: italic;
+    max-width: 1000px;
+    font-size: 36px;
+    
+}
+
+.citation { 
+    color: black;
+    text-align: end !important;
+    font-weight: 700;
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+/*/////////// container 4 ///////////*/
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+    
+}
+.bluebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 50px 0;
+    margin: 0;
+}
+h3,
+.p4 {
+    color: white;
+    padding: 0;
+    margin: 0;
+
+   
+}
+
+.secondstyle {
+    border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 2 0px;
+}
